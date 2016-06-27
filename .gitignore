@@ -1,2 +1,2 @@
 node_modules/
-server/server_api.js
+server/privateApiKey.js
