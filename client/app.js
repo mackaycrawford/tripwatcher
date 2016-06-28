@@ -3,6 +3,7 @@
     // Subscribe to the data needed for the page
     Meteor.subscribe("flights")
     Meteor.subscribe("flightHistory")
+    Meteor.subscribe("userSettings")
 
     // Static data needed for the user interface
     airportArray = ['ORD', 'DAL', 'DFW', 'LAX', 'DEN', 'SFO', 'PHX', 'MDW', 'SEA', 'BNA']
